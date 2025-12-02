@@ -7,13 +7,21 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
     "@nuxt/ui": "4.2.1",
     "@primeuix/themes": "^2.0.1",
     "@tailwindcss/vite": "^4.1.17",
+    "drizzle-kit": "^0.31.7",
+    "drizzle-orm": "^0.44.7",
     "nuxt": "^4.2.1",
+    "postgres": "^3.4.7",
+    "primeicons": "^7.0.0",
     "primevue": "^4.5.0",
     "tailwindcss": "^4.1.17",
     "typescript": "^5.6.3",

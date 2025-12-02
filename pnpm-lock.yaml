@@ -14,6 +14,9 @@ importers:
       '@primeuix/themes':
         specifier: ^2.0.1
         version: 2.0.1
+      '@primevue/nuxt-module':
+        specifier: ^4.5.0
+        version: 4.5.0(@babel/parser@7.28.5)(magicast@0.5.1)(vue@3.5.25(typescript@5.9.3))
       '@tailwindcss/vite':
         specifier: ^4.1.17
         version: 4.1.17(vite@7.2.6(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))
@@ -47,10 +50,6 @@ importers:
       vue-router:
         specifier: ^4.6.3
         version: 4.6.3(vue@3.5.25(typescript@5.9.3))
-    devDependencies:
-      '@primevue/nuxt-module':
-        specifier: ^4.5.0
-        version: 4.5.0(@babel/parser@7.28.5)(magicast@0.5.1)(vue@3.5.25(typescript@5.9.3))
 
 packages:
 
